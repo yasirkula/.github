@@ -4,4 +4,8 @@ Before posting an Issue, please do a quick search in Issues to see if a similar 
 
 ## Pull Requests
 
-Committed files in PRs must follow the repository's coding style (i.e. put spaces between parantheses, put curly brackets on new lines and so on), use same file endings (generally Windows) and [use tabs instead of spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
+- Committed files in PRs aren't required to follow the repository's coding style (though if only a few lines have changed, please follow the same coding style for those changes). I may still ask you to make changes to your PR if the coding style differs a lot
+- For consistency, you must [use tabs instead of spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI) (can be changed from the bottom right corner in Visual Studio, see the red arrow below)
+- For consistency, you must use *Windows CRLF* line endings (can be changed from the bottom right corner in Visual Studio, see the yellow arrow below)
+
+![Line Endings](Images/VSLineEndings.png)
