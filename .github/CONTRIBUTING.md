@@ -11,3 +11,5 @@ Before posting an Issue, please do a quick search in Issues to see if a similar 
 ![Line Endings](Images/VSLineEndings.png)
 
 - You mustn't use LINQ. If I see potential optimization issues in the code, I may ask you to refactor those parts
+- Your changes must be compatible with Unity 5.6 (unless the repository's documentation *explicitly states* a different minimum Unity version). For example, if you modify a prefab in later Unity versions, I won't be able to merge your changes. I plan to continue supporting all Unity versions unless there is *a very good reason* not to
+- Your changes must be compatible with Unity 5.6's legacy C# and .NET 2.0 versions (unless the repository's documentation *explicitly states* a different minimum Unity version). For example, you can't use things like `nameof()`, inline `out` variables or `Task`s
