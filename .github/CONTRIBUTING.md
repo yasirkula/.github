@@ -9,3 +9,5 @@ Before posting an Issue, please do a quick search in Issues to see if a similar 
 - For consistency, you must use *Windows CRLF* line endings (can be changed from the bottom right corner in Visual Studio, see the yellow arrow below)
 
 ![Line Endings](Images/VSLineEndings.png)
+
+- You mustn't use LINQ. If I see potential optimization issues in the code, I may ask you to refactor those parts
