@@ -2,7 +2,7 @@
 name: Bug report
 about: How dare a bug exists in my plugin, let's get rid of it!
 title: ''
-labels: bug
+labels: ''
 assignees: ''
 
 ---
